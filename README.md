@@ -1,16 +1,16 @@
-# React + Vite
+# Proyecto Web React
+## Proyecto React, HTML y CSS simulando ser whatsapp ahora con login y register simple.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Como correr localmente:
+Descargar projecto, abrir en VSC (Visual Studio Code o Otras apps de Coding) y usando la consola de Git Bash Correr usando: npm run dev, en caso de no andar correr npm install para las dependencias, luego dirijirse a la pagina obtenida por consola.
 
-Currently, two official plugins are available:
+Como deployar:
+Se usa Vercel con url del repositorio de github como deployer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Estructura principal:
+Views: contiene todas las routes con su html y logica interna.
+Styles: contiene el css que styliza todas las paginas.
+Services: contiene la api de prueba de donde se saca la user data.
+Router: maneja las urls permitidas del proyecto.
+Context: maneja todos los procesos de log in, log out y busqueda de usuarios.
+Components: contiene los componentes importantes para la pagina principal y la ruta protegida.

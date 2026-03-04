@@ -33,12 +33,10 @@ const ChatProvider = ({ children }) => {
     const foundUser = mockUsers.find(user => user.email === userData.email)
     if (!foundUser) {
       console.log(userData)
-      alert("Mail disponible")
       if (userData.password === userData.confirmpassword) {
         console.log("crear register")
         return true
       }
-      alert.log("no coinciden las credenciales")
       return false
     } else {
       alert("Mail ya en uso, proba logearte")
