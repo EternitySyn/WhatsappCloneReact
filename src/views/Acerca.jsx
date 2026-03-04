@@ -13,6 +13,7 @@ const Acerca = () => {
           El proyecto no tomo mucho tiempo debido a que aun no tenemos base de datos verdadera a la que conectar. ni verificar todo de forma server-sided
           ,igualmente fueron tomadas medidas para mostrar inputs erroneas en register y esta pensado con planes de integracion a api o sql.
          </p>
+         <a href="/">Volver a inicio de session</a>
     </div>
   )
 }
