@@ -4,7 +4,7 @@ import { NotFound } from "../views/NotFound"
 import { Login } from "../views/Login"
 import { RouteProtected } from "../components/RouteProtected"
 import { Register } from "../views/Register"
-import { Acerca } from "../views/acerca"
+import { Acerca } from "../views/Acerca"
 
 const RouterApp = () => {
   return (
