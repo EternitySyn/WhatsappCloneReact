@@ -38,8 +38,8 @@ const Login = () => {
   }
 
   return (
-    <section>
-      <h2 className="title-login">Bienvenido, inicia sesión</h2>
+    <section className="login">
+      <h2 className="title-login">Iniciar sesión</h2>
       <form onSubmit={handleSubmit}>
         <input
           type="email"

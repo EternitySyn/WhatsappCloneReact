@@ -47,8 +47,8 @@ const Register = () => {
   }
 
   return (
-    <section>
-      <h2 className="title-login">Bienvenido, Crea una cuenta</h2>
+    <section className="login">
+      <h2 className="title-login">Crear una cuenta</h2>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
@@ -72,7 +72,7 @@ const Register = () => {
           onChange={handleChangePassword}
           required
         />
-        {password.length < 6 && <p className="error-form">"Contraseña muy debil (6 caracteres)"</p>}
+        {password.length < 6 && <p className="error-form">Contraseña muy debil (minimo 6)</p>}
         <input
           type="password"
           placeholder="Confirmar Contraseña"
@@ -80,7 +80,7 @@ const Register = () => {
           onChange={handleChangeConfPassword}
           required
         />
-        {confirmpassword !== password && <p className="error-form">Contraseña no coincide</p>}
+        {confirmpassword !== password && <p className="error-form">Contraseñas deben coincidir</p>}
         <button>Registrar</button>
         {
           error && <p className="error-form">Error al Registrar</p>

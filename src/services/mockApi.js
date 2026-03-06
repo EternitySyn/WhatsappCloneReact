@@ -6,127 +6,127 @@ const users = [
     email: "nicole.demara@gmail.com",
     password: "pepe123",
     address: { country: "United States" },
-    image: "https://i.pravatar.cc/150?img=1",
+    image: "https://i.imgur.com/3hyJZps.jpeg",
     messages: [
       { author: "Nicole", text: "I'm broke again", time: "09:12" },
-      { author: "me", text: "Really?", time: "09:13" }
+      { author: "me", text: "Really? I'm not lending you more dennies Nicole!", time: "09:13" }
     ]
   },
   {
     id: 2,
-    firstName: "Michael",
-    lastName: "Williams",
-    email: "michael.williams@gmail.com",
+    firstName: "William",
+    lastName: "Afton",
+    email: "william.afton@gmail.com",
     password: "pepe123",
     address: { country: "Germany" },
-    image: "https://i.pravatar.cc/150?img=2",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXBRpEiSTlndnFeDZfmeDrSadOxjJpH15SpQ&s",
     messages: [
-      { author: "Michael", text: "Server deployed", time: "10:01" },
-      { author: "me", text: "Ok, checking", time: "10:05" }
+      { author: "William", text: "There is no evidence left", time: "10:01" },
+      { author: "me", text: "what about the suits?", time: "10:05" }
     ]
   },
   {
     id: 3,
-    firstName: "Sophia",
-    lastName: "Brown",
-    email: "sophia.brown@gmail.com",
+    firstName: "Sadako",
+    lastName: "Ado",
+    email: "sadako.ado@gmail.com",
     password: "pepe123",
     address: { country: "Japan" },
-    image: "https://i.pravatar.cc/150?img=3",
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/Sadako_Yamamura_in_Ringu.png/250px-Sadako_Yamamura_in_Ringu.png",
     messages: [
-      { author: "Sophia", text: "Draft ready", time: "11:22" },
-      { author: "me", text: "Send it", time: "11:30" }
+      { author: "Sadako", text: "You saw it... ", time: "11:22" },
+      { author: "me", text: "... No?", time: "11:30" }
     ]
   },
   {
     id: 4,
-    firstName: "Liam",
-    lastName: "Miller",
-    email: "liam.miller@gmail.com",
+    firstName: "Madeline",
+    lastName: "Celeste",
+    email: "medeline.celeste@gmail.com",
     password: "pepe123",
     address: { country: "Canada" },
-    image: "https://i.pravatar.cc/150?img=4",
+    image: "https://s3-alpha.figma.com/hub/file/2206705029003168493/1b600ff5-6d9f-47a4-8160-fa1f9a084ffb-cover.png",
     messages: [
-      { author: "Liam", text: "Build completed", time: "12:10" },
-      { author: "me", text: "Great", time: "12:11" }
+      { author: "Madeline", text: "I'm on the peak of a mountain!", time: "12:10" },
+      { author: "me", text: "Nice! Send a picture next time", time: "12:11" }
     ]
   },
   {
     id: 5,
-    firstName: "Olivia",
-    lastName: "Davis",
-    email: "olivia.davis@gmail.com",
+    firstName: "Joseph",
+    lastName: "Joestar",
+    email: "jojo@gmail.com",
     password: "pepe123",
     address: { country: "United Kingdom" },
-    image: "https://i.pravatar.cc/150?img=5",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZaMZpcoLYbrr_qS8IrW8tmcuyzKjwuW8QmA&s",
     messages: [
-      { author: "Olivia", text: "Design uploaded", time: "13:45" },
-      { author: "me", text: "Reviewing", time: "13:50" }
+      { author: "Joseph", text: "Holy is that a reference?", time: "13:45" },
+      { author: "me", text: "Maybe", time: "13:50" }
     ]
   },
   {
     id: 6,
-    firstName: "Noah",
-    lastName: "Garcia",
-    email: "noah.garcia@gmail.com",
+    firstName: "Walter",
+    lastName: "White",
+    email: "walter.white@gmail.com",
     password: "pepe123",
     address: { country: "Mexico" },
-    image: "https://i.pravatar.cc/150?img=6",
+    image: "https://i.imgur.com/rwHY4nF.jpeg",
     messages: [
-      { author: "Noah", text: "Database seeded", time: "14:03" },
-      { author: "me", text: "Thanks", time: "14:04" }
+      { author: "Walter", text: "The next batch will arrive in 2 days", time: "14:03" },
+      { author: "me", text: "Wrong contact...", time: "14:04" }
     ]
   },
   {
     id: 7,
-    firstName: "Ava",
+    firstName: "David",
     lastName: "Martinez",
-    email: "ava.martinez@gmail.com",
+    email: "david.martinez@gmail.com",
     password: "pepe123",
     address: { country: "Spain" },
-    image: "https://i.pravatar.cc/150?img=7",
+    image: "https://www.colejohnsonwrites.com/content/images/2024/10/David-Martinez-Cyberpunk-Edgerunners-1.jpg",
     messages: [
-      { author: "Ava", text: "Testing UI", time: "15:20" },
-      { author: "me", text: "Any issues?", time: "15:22" }
+      { author: "David", text: "I'll take her to the moon, no matter what", time: "15:20" },
+      { author: "me", text: "I'm sure of it Chum", time: "15:22" }
     ]
   },
   {
     id: 8,
-    firstName: "Elijah",
-    lastName: "Rodriguez",
-    email: "elijah.rodriguez@gmail.com",
+    firstName: "Bondrewd",
+    lastName: "Hollow",
+    email: "bondrewrd.hollow@gmail.com",
     password: "pepe123",
-    address: { country: "Argentina" },
-    image: "https://i.pravatar.cc/150?img=8",
+    address: { country: "???" },
+    image: "https://play.vsthemes.org/nova/1024576-1/80c/43980ca3d26213e2385acad58ecb446a.webp",
     messages: [
-      { author: "Elijah", text: "Client contacted", time: "16:18" },
-      { author: "me", text: "Waiting response", time: "16:25" }
+      { author: "Bondrewd", text: "All for Progress", time: "16:18" },
+      { author: "me", text: "Even Humanity itself", time: "16:25" }
     ]
   },
   {
     id: 9,
-    firstName: "Isabella",
-    lastName: "Hernandez",
-    email: "isabella.hernandez@gmail.com",
+    firstName: "Blade",
+    lastName: "Hunter",
+    email: "blade@gmail.com",
     password: "pepe123",
     address: { country: "Chile" },
-    image: "https://i.pravatar.cc/150?img=9",
+    image: "https://preview.redd.it/anybody-here-going-for-blade-v0-dlx8pzrq6z6c1.jpeg?auto=webp&s=cc981ae2c339e923ca36f170c773e7af460a47d3",
     messages: [
-      { author: "Isabella", text: "Report sent", time: "17:02" },
-      { author: "me", text: "Received", time: "17:05" }
+      { author: "Blade", text: "Sadly still not dead", time: "17:02" },
+      { author: "me", text: "...kay?", time: "17:05" }
     ]
   },
   {
     id: 10,
-    firstName: "James",
-    lastName: "Lopez",
-    email: "james.lopez@gmail.com",
+    firstName: "Lucio",
+    lastName: "Correira",
+    email: "lucio.correira@gmail.com",
     password: "pepe123",
     address: { country: "Brazil" },
-    image: "https://i.pravatar.cc/150?img=10",
+    image: "https://gladiatorboost.com/wp-content/uploads/2025/04/Top-Lucio-Builds-for-DPS-Support-Domination-OW2-Stadium.jpg",
     messages: [
-      { author: "James", text: "Meeting confirmed", time: "18:40" },
-      { author: "me", text: "See you then", time: "18:41" }
+      { author: "Lucio", text: "Let's break it down", time: "18:40" },
+      { author: "me", text: "Nice music man!", time: "18:41" }
     ]
   }
 ];
